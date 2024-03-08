@@ -1,0 +1,173 @@
+*{
+    color-scheme:dark;
+    background-color: #11191f;
+    font-family: system-ui,-apple-system,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-left: 30px;
+    background-image: url('bg1ed.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+h1{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    
+}
+
+.p1{
+    font-size: 20px;
+    opacity: 0.7;
+    margin-top: 0px;
+    font-weight: lighter;
+    
+}
+
+.r1{
+    margin-top: 130px;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.p2{
+    font-size: 20px;
+    opacity: 0.7;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    font-weight: lighter;
+}
+
+#input-box{
+    border: 2px solid rgb(255, 255, 255); 
+    width: 1200px; 
+    height: 55px; 
+    background-color: #11191f;          
+    border-radius: 5px;
+    margin-top: 0px;
+    font-size: 25px;
+    text-indent: 15px;
+    margin-left: 0;
+}
+
+#b1{
+    width: 1206px; 
+    height: 55px; 
+    background: rgb(138, 138, 241);
+    border: 2px solid rgb(138, 138, 241);          
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: 50;
+    cursor: pointer;
+}
+
+#b1:hover{
+    background: #a9a6ff;
+}
+
+.r2{
+    margin-top: 110px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.p3{
+    font-size: 20px;
+    opacity: 0.7;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.result-box ul{
+    border-top: 0px solid #000000;
+    padding: 15px 10px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.result-box ul li{
+    list-style: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-left: 0;
+}
+.result-box ul li:hover{
+    background: #000000;
+}
+
+.result-box{
+    max-height: 300px;
+    width: 1230px;
+    margin-left: 18px;
+    margin-top: 2px;
+    overflow-y: scroll;
+}
+
+.result-box::-webkit-scrollbar {
+    display: none;
+
+}
+img{
+    position: relative;
+    top: -375px;
+    left: -75px;
+    margin-bottom: -330px;
+}
+
+.r3{
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#s1{
+    background: #fff;
+    border-radius: 10px;
+    border: 3px solid snow;
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 22px;
+    padding-right: 25px;
+    display: inline-block;
+    color: black;
+    margin-bottom: 20px;
+}
+
+h3{
+    background: white;
+}
+
+.p4{
+    background: white;
+}
+
+.button{
+    width: 200px; 
+    height: 110px; 
+    background: rgb(138, 138, 241);
+    border: 2px solid rgb(138, 138, 241);          
+    border-radius: 6px;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #a9a6ff;
+}
+
+#i1{
+    border-radius: 10px;
+    position: relative;
+    top: -330px;
+    left: 0px;
+    margin-top: 350px;
+}
