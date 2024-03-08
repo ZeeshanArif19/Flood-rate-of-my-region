@@ -1,0 +1,84 @@
+*{
+    background-image: url('bg3ed.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: system-ui,-apple-system,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: white;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+form{
+    background: #fff;
+    border-radius: 10px;
+    border: 3px solid snow;
+    width: 1300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}
+
+input,label,textarea,button{
+    background: #fff;
+    color: black;
+}
+
+textarea{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 1235px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#l2,#l3,#l4,#l5{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#l1{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    background:rgb(138, 138, 241);
+    border:rgb(138, 138, 241);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-top: 15px;
+}
+
+button:hover{
+    background: #a9a6ff;
+    cursor: pointer;
+
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
